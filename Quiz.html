@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<link rel="stylesheet" href="./assets/style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizy</title>
+    
+   
+</head>
+<body>
+    <h3 id="myname" style="position: absolute;">Developed by sumit </h3>
+    <div class="main-div">
+        <div class="child">
+            <h2 id="titleque">Question comes here  now</h2>
+            <ul id="olist">
+                <li>
+                    <input type="radio" class="answer" name="answer" id="ans1">
+                    <label for="ans1" id="option1">answer 1</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="ans2">
+                    <label for="ans2" id="option2">answer 2</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="ans3">
+                    <label for="ans3" id="option3">answer 3</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="ans4">
+                    <label for="ans4" id="option4">answer 4</label>
+                </li>
+            </ul>
+
+            <button id="submit">submit</button>
+        </div>
+        <div class="scoreArea" id="showScore">
+            <button id="reset" onclick="location.reload;"></button>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
