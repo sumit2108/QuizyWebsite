@@ -61,6 +61,8 @@ let score=0;
 let totalScore=queDB.length;
 const scoreArea =document.getElementById('showScore');
 
+const childDiv=document.getElementById('child');
+
 const question =document.querySelector('#titleque');
 
 const option1 =document.querySelector('#option1');
@@ -120,6 +122,7 @@ submit.addEventListener('click' ,() =>{
     <button id="reset1" onclick="location.href='index.html'">Home</button>`;
     
     scoreArea.classList.remove('scoreArea');
+       childDiv.style.display= 'none';
 
    }
 
